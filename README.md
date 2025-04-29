@@ -24,6 +24,12 @@ In the project root, JHipster generates configuration files for tools like git, 
 
 The build system will install automatically the recommended version of Node and npm.
 
+Please install Java version >= 21. Example:
+
+```
+brew install openjdk@21
+```
+
 We provide a wrapper to launch npm.
 You will only need to run this command when dependencies change in [package.json](package.json).
 
